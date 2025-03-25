@@ -26,6 +26,14 @@ const HomeScreen = () => {
         >
           Productos
         </CustomButton>
+
+        <CustomButton
+          className='mt-20'
+          onPress={ () => router.push('/products') }
+          variant='text-only'
+        >
+          Productos
+        </CustomButton>
       </View>
     </SafeAreaView>
   );
