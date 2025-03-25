@@ -1,4 +1,5 @@
 import {
+  SafeAreaView,
   Text,
   View
 } from 'react-native';
@@ -6,9 +7,16 @@ import {
 
 const App = () => {
   return (
-    <View className='mt-20'>
-      <Text className='text-3xl font-bold text-blue-500'>Navigation App</Text>
-    </View>
+    <SafeAreaView>
+      <View className='mt-6 mx-2.5'>
+        <Text className='text-5xl' style={{ fontFamily: 'WorkSans-Black' }}>Navigation App</Text>
+
+        <Text className='text-4xl font-work-black'>Navigation App</Text>
+
+        <Text className='text-3xl font-work-medium'>Navigation App</Text>
+        <Text className='text-2xl font-work-light'>Navigation App</Text>
+      </View>
+    </SafeAreaView>
   );
 }
 
