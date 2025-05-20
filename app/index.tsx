@@ -9,13 +9,13 @@ import {
 const HomePage = () => {
   return (
     <SafeAreaView>
-      <View className='mt-6 mx-2.5'>
+      <View className='mt-10 mx-2.5'>
         <Text className='text-5xl' style={{ fontFamily: 'WorkSans-Black' }}>HomePage</Text>
 
-        <Text className='text-4xl font-work-black'>HomePage</Text>
-        <Text className='text-3xl font-work-medium'>HomePage</Text>
-        <Text className='text-2xl font-work-light'>HomePage</Text>
-        <Text className='text-xl'>HomePage</Text>
+        <Text className='text-4xl font-work-black text-primary'>HomePage</Text>
+        <Text className='text-3xl font-work-medium text-secondary'>HomePage</Text>
+        <Text className='text-2xl font-work-light text-secondary-100'>HomePage</Text>
+        <Text className='text-xl text-tertiary'>HomePage</Text>
       </View>
     </SafeAreaView>
   );
