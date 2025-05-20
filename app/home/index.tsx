@@ -13,13 +13,22 @@ const HomeScreen = () => {
     <SafeAreaView>
       <View className='px-10 mt-5'>
         <Link href='/products' asChild>
-          <CustomButton>
+          <CustomButton className='mb-5'>
             Products
           </CustomButton>
         </Link>
 
         <CustomButton
           onPress={ () => router.push('/products') }
+          className='mb-5'
+        >
+          Products
+        </CustomButton>
+
+        <CustomButton
+          variant='text-only'
+          onPress={ () => router.push('/products') }
+          className='mb-5'
         >
           Products
         </CustomButton>
