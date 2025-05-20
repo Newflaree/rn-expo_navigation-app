@@ -4,9 +4,17 @@ import {
   Text,
   View,
 } from 'react-native';
+// Expo
+import {
+  Link,
+  Redirect
+} from 'expo-router';
 
 
-const HomePage = () => {
+const AppPage = () => {
+  return <Redirect href='/home' />
+
+  /*
   return (
     <SafeAreaView>
       <View className='mt-10 mx-2.5'>
@@ -16,9 +24,14 @@ const HomePage = () => {
         <Text className='text-3xl font-work-medium text-secondary'>HomePage</Text>
         <Text className='text-2xl font-work-light text-secondary-100'>HomePage</Text>
         <Text className='text-xl text-tertiary'>HomePage</Text>
+
+        <Link href='/products'>
+          Products
+        </Link>
       </View>
     </SafeAreaView>
   );
+   * */
 }
 
-export default HomePage;
+export default AppPage;
