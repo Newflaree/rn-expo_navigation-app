@@ -7,8 +7,8 @@ import {
 
 const HomePage = () => {
   return (
-    <View>
-      <Text>HomePage</Text>
+    <View className='mt-10'>
+      <Text className='text-3xl font-bold text-blue-500'>HomePage</Text>
     </View>
   );
 }
