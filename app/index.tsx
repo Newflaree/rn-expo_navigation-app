@@ -13,7 +13,7 @@ import {
 
 const AppPage = () => {
   //return <Redirect href='/home' />
-  return <Redirect href='/drawer' />
+  return <Redirect href='/home' />
 
   /*
   return (
